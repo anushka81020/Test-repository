@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The box model</title>
+	<style>
+		*{
+			box-sizing: border-box;
+			
+
+		}
+		body
+		{
+			background-color: lightcoral;
+			/*box-sizing=border-box ;does not inherited by other*/
+		}
+		#box
+		{
+			background-color: darkmagenta;
+			padding: 40px;
+			border: 2px solid black;
+			width: 300px;
+			height: 100px;
+			margin-top: 20px;
+			overflow: auto;
+			
+		}
+		#content
+		{
+			background-color: skyblue;
+		}
+		h1
+		{
+			margin-bottom: 70px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Box model</h1>
+	<div id="box">
+		<div id="content">Included in the Constitution on October 17, 1949, Article 370 exempts J&K from the Indian Constitution (except Article 1 and Article 370 itself) and permits the state to draft its own Constitution. It restricts Parliament’s legislative powers in respect of J&K. For extending a central law on subjects included in the Instrument of Accession (IoA), mere “consultation” with the state government is needed. But for extending it to other matters, “concurrence” of the state government is mandatory. The IoA came into play when the Indian Independence Act, 1947 divided British India into India and Pakistan.
+		</div>
+	</div>
+</body>
+</html>

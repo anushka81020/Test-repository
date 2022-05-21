@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Element with class selector</title>
+	<style> 
+		/*all with class "highlights"*/
+		.highlight{
+			background-color: rosybrown;
+
+		}
+		/*all p elements with class = "highlight"*/
+		p.highlight{
+			font-size: italic;
+
+		}
+		.highlight1{
+			background-color: paleturquoise;
+
+		}
+		/*all p elements with class = "highlight"*/
+		p.highlight1{
+			font-size: italic;
+
+		}
+		.highlight2{
+			background-color: hotpink;
+
+		}
+		/*all p elements with class = "highlight"*/
+		p.highlight2{
+			font-size: italic;
+
+		}
+		/*all elements with class "highlight" as well as with class "mainpoint".*/
+		.mainpoint.highlight{
+			color: red;
+			background-color: black;
+
+		}
+	</style>
+</head>
+<body>
+	<h1 class="highlight">Element with class selector</h1>
+	<p class="highlight1">Name and territory of the Union::</p>
+	<p class="highlight2">India, that is Bharat, shall be a Union of States. The States and the territories thereof shall be as specified in the  First Schedule. The territory of India shall comprise</p>
+	<p class="highlight">This is P with class="highlight"</p>
+	<div class="mainpoint highlight">This is main point of the entire article.
+	</div>
+</body>
+</html>
